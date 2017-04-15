@@ -1,0 +1,2 @@
+# urls are of the form http://SiteA.com/item/fileid/projectname
+# basically as long as the link for the download button matches the pattern in the main program we're good to go

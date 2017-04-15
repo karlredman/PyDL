@@ -1,0 +1,75 @@
+@startuml
+/' class diagrams for the project '/
+
+class MovieDL {
+    URL urls[]
+    ThreadMgr threadmgr
+    DiskUtils diskutils
+    Log log
+    show_help()
+
+    'read the command line
+    read_cmdl()
+
+    'shutdown the program gracefully
+    shutdown()
+}
+
+class DiskUtils {
+    ' Disk utilities
+    string input_file
+    String download_dir
+    check_diskspace()
+}
+
+class Log {
+    ' Log file
+    int debug_level
+    string log_filepath
+    write_msg()
+}
+
+class URL {
+    string url
+
+    'validate the input
+    validate_input()
+
+
+    'follow url redirect hops to the end
+    follow()
+
+    'output the download progress
+    chunk_report()
+
+    'read data from the url
+    chunk_read()
+}
+
+class ThreadMgr {
+    int max_threads
+    create()
+    start()
+    stop()
+}
+
+class OutputMgr {
+    write_chunk()
+}
+
+MovieDL "1" *-- "many" URL : contains
+MovieDL "1" *-- "1" DiskUtils : contains
+MovieDL "1" *-- "1" Log : contains
+MovieDL "1" *-- "1" ThreadMgr : contains
+MovieDL "1" *-- "1" OutputMgr : contains
+
+ThreadMgr .. URL : executes
+ThreadMgr .. OutputMgr : calls
+URL .. DiskUtils : uses
+
+MovieDL .. Log : message
+ThreadMgr .. Log : message
+OutputMgr .. Log : message
+URL .. Log : message
+
+@enduml
