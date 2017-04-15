@@ -1,7 +1,7 @@
 # Project:  MovieDL
 
 ## Introduction
-This is a practice project that downloads movies from a "free" movie storage sight [txmovie.in](http://txmovie.in). 
+This is a practice project that downloads files from a file/movie storage site
 
 ## Motivation
 The intention is to write a full fledged python pogramming project from scratch that includes a full development lifecycle. 
