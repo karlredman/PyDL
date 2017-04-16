@@ -1,0 +1,1066 @@
+AutoGen Definitions dummy;
+class = {
+  cp-id     = 'classpydl_1_1Config';
+  cp-name   = 'pydl::Config';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1Config_1af91a80e9f503fcac52691f3c8549f445';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '__init__';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '95';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-static-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1Config_1a8b11f3969c25a949314eb3751d6423e4';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'input_file_name';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "infile"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '90';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1Config_1accbfb2de8b3bf86e6bce28e3d32b4e01';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'ifd';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= None
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '91';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1Config_1a31d0187c8c8e9f5da4ed587e9f03d816';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'output_dir_path';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "./"
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '92';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1Config_1ac5ea08bc6f18b281b4bbb32e98a9aa3a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'max_threads';
+      sec-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 1
+_EnD_oF_dEf_TeXt_;
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '93';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/karl/Documents/github/PyDL/pydl.py';
+  cp-fileline  = '83';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+@verbatim Configuration parameters 
+1. populate vars
+3. verify output directory -cwd(?)
+2. open input file -save descriptor
+\endverbatim  
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 21;
+        node-label = 'string';
+      }; /* node */
+      node = {
+        node-id    = 22;
+        node-label = 'int';
+      }; /* node */
+      node = {
+        node-id    = 20;
+        node-label = 'pydl.Config';
+        node-link = {
+          node-link-id = 'classpydl_1_1Config';
+        };
+        node-child = {
+          child-id = '21';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
++input_file_name
++output_dir_path
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+        node-child = {
+          child-id = '22';
+          relation = usage;
+          edgelabel = <<_EnD_oF_dEf_TeXt_
++max_threads
+_EnD_oF_dEf_TeXt_;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classException';
+  cp-name   = 'Exception';
+  cp-ref     = {
+    ref-type = derived;
+    ref-id   = 'classpydl_1_1MyError';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = '/home/karl/Documents/github/PyDL/pydl.py';
+  cp-fileline  = '72';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 24;
+        node-label = 'pydl.MyError';
+        node-link = {
+          node-link-id = 'classpydl_1_1MyError';
+        };
+        node-child = {
+          child-id = '23';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 23;
+        node-label = 'Exception';
+        node-link = {
+          node-link-id = 'classException';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 25;
+        node-label = 'Exception';
+        node-link = {
+          node-link-id = 'classException';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classpydl_1_1MyError';
+  cp-name   = 'pydl::MyError';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classException';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-filename  = '/home/karl/Documents/github/PyDL/pydl.py';
+  cp-fileline  = '72';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 26;
+        node-label = 'pydl.MyError';
+        node-link = {
+          node-link-id = 'classpydl_1_1MyError';
+        };
+        node-child = {
+          child-id = '27';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 27;
+        node-label = 'Exception';
+        node-link = {
+          node-link-id = 'classException';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 28;
+        node-label = 'pydl.MyError';
+        node-link = {
+          node-link-id = 'classpydl_1_1MyError';
+        };
+        node-child = {
+          child-id = '29';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+      node = {
+        node-id    = 29;
+        node-label = 'Exception';
+        node-link = {
+          node-link-id = 'classException';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classpydl_1_1Report';
+  cp-name   = 'pydl::Report';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1Report_1a8c73aa4c61911b7175a229d664cd568b';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '__init__';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '247';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1Report_1a1bc92f0821786bc85f9f028c4f79e06f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'print_progress';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '250';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1Report_1ad8d1df7ed7249ed5bc6af9964a3d3a3c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'progressX';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '248';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/karl/Documents/github/PyDL/pydl.py';
+  cp-fileline  = '246';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 31;
+        node-label = 'pydl.Report';
+        node-link = {
+          node-link-id = 'classpydl_1_1Report';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classpydl_1_1ScrapeFile';
+  cp-name   = 'pydl::ScrapeFile';
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1a004d84a5d1ba171643025fc49a6bdd2c';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '__init__';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+input_url
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'input_url';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+download_path
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'download_path';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+file_id
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'file_id';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+report
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'report';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '102';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1aac45b8976528c22b18d099ced6486fb0';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'follow';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+url
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'url';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '119';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@verbatim Follow the url through redirects
+\endverbatim  
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1a32f6cca0191f261583a5b158cbb3b51f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'chunk_report';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+bytes_so_far
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'bytes_so_far';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+chunk_size
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'chunk_size';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+total_size
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'total_size';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '132';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+@verbatim Report the latest downloaded file chunk
+\endverbatim  
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'pydl_8py_1abfa11eb49a54d82868751cc5352b24dc';
+        sec-mem-ref-line = '114';
+        sec-mem-ref-name = 'pydl.ScrapeFile::ofilename';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'pydl_8py_1a44e9ced4e2d4c1f53e35f7ebb55dd916';
+        sec-mem-ref-line = '157';
+        sec-mem-ref-name = 'pydl.ScrapeFile::download';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'pydl_8py_1afc7cfac81f860bc57425b20d9968454a';
+        sec-mem-ref-line = '173';
+        sec-mem-ref-name = 'pydl.ScrapeFile::test_thread';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1ad16106fb802b794bf4fbb04ecf07df6e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'chunk_read';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+response
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'response';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+ofilename
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'ofilename';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+chunk_size
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'chunk_size';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+8192
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+report_hook
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'report_hook';
+        sec-mem-param-defval = <<_EnD_oF_dEf_TeXt_
+None
+_EnD_oF_dEf_TeXt_;
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '138';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'pydl_8py_1a44e9ced4e2d4c1f53e35f7ebb55dd916';
+        sec-mem-ref-line = '157';
+        sec-mem-ref-name = 'pydl.ScrapeFile::download';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1a44e9ced4e2d4c1f53e35f7ebb55dd916';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'download';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '157';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'pydl_8py_1ad16106fb802b794bf4fbb04ecf07df6e';
+        sec-mem-ref-line = '138';
+        sec-mem-ref-name = 'pydl.ScrapeFile::chunk_read';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'pydl_8py_1a32f6cca0191f261583a5b158cbb3b51f';
+        sec-mem-ref-line = '132';
+        sec-mem-ref-name = 'pydl.ScrapeFile::chunk_report';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'pydl_8py_1aa16c49a462a0361b44237b5e71c61a87';
+        sec-mem-ref-line = '111';
+        sec-mem-ref-name = 'pydl.ScrapeFile::download_path';
+    };
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'pydl_8py_1abfa11eb49a54d82868751cc5352b24dc';
+        sec-mem-ref-line = '114';
+        sec-mem-ref-name = 'pydl.ScrapeFile::ofilename';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1afc7cfac81f860bc57425b20d9968454a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'test_thread';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '173';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'pydl_8py_1a32f6cca0191f261583a5b158cbb3b51f';
+        sec-mem-ref-line = '132';
+        sec-mem-ref-name = 'pydl.ScrapeFile::chunk_report';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1afac9d7b1cdfe48c36753101b54eb879a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'filename';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '105';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1aa16c49a462a0361b44237b5e71c61a87';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'download_path';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '111';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'pydl_8py_1a44e9ced4e2d4c1f53e35f7ebb55dd916';
+        sec-mem-ref-line = '157';
+        sec-mem-ref-name = 'pydl.ScrapeFile::download';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1abfa11eb49a54d82868751cc5352b24dc';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'ofilename';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '114';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'pydl_8py_1a32f6cca0191f261583a5b158cbb3b51f';
+        sec-mem-ref-line = '132';
+        sec-mem-ref-name = 'pydl.ScrapeFile::chunk_report';
+    };
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'pydl_8py_1a44e9ced4e2d4c1f53e35f7ebb55dd916';
+        sec-mem-ref-line = '157';
+        sec-mem-ref-name = 'pydl.ScrapeFile::download';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1ScrapeFile_1af2ca72f4e23c679389e387d86572448a';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'report';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '117';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/karl/Documents/github/PyDL/pydl.py';
+  cp-fileline  = '98';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+@verbatim Class to get file
+\endverbatim  
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 33;
+        node-label = 'pydl.ScrapeFile';
+        node-link = {
+          node-link-id = 'classpydl_1_1ScrapeFile';
+        };
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+class = {
+  cp-id     = 'classpydl_1_1ThreadProc';
+  cp-name   = 'pydl::ThreadProc';
+  cp-ref     = {
+    ref-type = base;
+    ref-id   = 'classthreading_1_1Thread';
+    ref-prot = public;
+    ref-virt = non-virtual;
+  };
+  cp-section = {
+    sec-kind = 'public-func';
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1ThreadProc_1a9751777d285b7a0518516489880182a2';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = '__init__';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+urlq
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'urlq';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+tq
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'tq';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+dl_site_info
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'dl_site_info';
+      }; /*        sec-mem-param--param */
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+report
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'report';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '193';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'function';
+      sec-mem-id   = 'classpydl_1_1ThreadProc_1a36d35fcbb820c901ba044da79ddc093f';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'run';
+      sec-mem-param = {
+        sec-mem-param-type = <<_EnD_oF_dEf_TeXt_
+self
+_EnD_oF_dEf_TeXt_;
+        sec-mem-param-defname = 'self';
+      }; /*        sec-mem-param--param */
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '200';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceto = {
+        sec-mem-ref-id = 'pydl_8py_1a97fd18be6bda5fe5313cffeed81c62b1';
+        sec-mem-ref-line = '195';
+        sec-mem-ref-name = 'pydl.ThreadProc::urlq';
+    };
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-section = {
+    sec-kind = 'public-attrib';
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1ThreadProc_1a97fd18be6bda5fe5313cffeed81c62b1';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'urlq';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '195';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-referenceby = {
+        sec-mem-ref-id = 'pydl_8py_1a36d35fcbb820c901ba044da79ddc093f';
+        sec-mem-ref-line = '200';
+        sec-mem-ref-name = 'pydl.ThreadProc::run';
+    };
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1ThreadProc_1a278adf1315bda45821970df7b8d6974e';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'tq';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '196';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1ThreadProc_1a924c04d442cdc0642b46305a4e3eaa1d';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'dl_site_info';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '197';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+    sec-member = {
+      sec-mem-kind = 'variable';
+      sec-mem-id   = 'classpydl_1_1ThreadProc_1a652b97e4b424c3c2e3d007a49eebaab6';
+      sec-mem-virt = normal;
+      sec-mem-prot = public;
+      sec-mem-type = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-name = 'report';
+      sec-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      sec-mem-desc-line = '198';
+      sec-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      sec-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* sec-member */
+  }; /* cp-section */
+  cp-filename  = '/home/karl/Documents/github/PyDL/pydl.py';
+  cp-fileline  = '191';
+  cp-briefdesc = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  cp-inheritancegraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 35;
+        node-label = 'Thread';
+      }; /* node */
+      node = {
+        node-id    = 34;
+        node-label = 'pydl.ThreadProc';
+        node-link = {
+          node-link-id = 'classpydl_1_1ThreadProc';
+        };
+        node-child = {
+          child-id = '35';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+  cp-collaborationgraph = <<_EnD_oF_dEf_TeXt_
+      node = {
+        node-id    = 37;
+        node-label = 'Thread';
+      }; /* node */
+      node = {
+        node-id    = 36;
+        node-label = 'pydl.ThreadProc';
+        node-link = {
+          node-link-id = 'classpydl_1_1ThreadProc';
+        };
+        node-child = {
+          child-id = '37';
+          relation = public-inheritance;
+        }; /* node-child */
+      }; /* node */
+
+_EnD_oF_dEf_TeXt_;
+}; /* class */
+file = {
+  file-id   = 'pydl_8py';
+  file-name = 'pydl.py';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = 'namespacepydl_1a59733b10df0bc5903641b678b3a930ad';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+def
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'myHandler';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+sig
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-defname = 'sig';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+frame
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-defname = 'frame';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      func-mem-desc-line = '75';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacepydl_1a815508dac305fa5faebfc88ccf234551';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'DEBUG';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= False
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      var-mem-desc-line = '18';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacepydl_1a8812436f26089ba1b61b8ce310d62bfe';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'DEBUG_CLEAR';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= False
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = '/home/karl/Documents/github/PyDL/pydl.py';
+      var-mem-desc-line = '19';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = '/home/karl/Documents/github/PyDL/pydl.py';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = 'README_8md';
+  file-name = 'README.md';
+  file-full-name  = '/home/karl/Documents/github/PyDL/README.md';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
